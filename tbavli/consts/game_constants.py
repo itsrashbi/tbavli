@@ -1,0 +1,33 @@
+class GameConstants:
+    """Holds game-related constants."""
+
+    CHARACTER_SLOT_MAX = 15
+    INVENTORY_SLOT_MAX = 96
+    TRUNK_SLOT_MAX = 48
+    LOCKER_SLOT_MAX = 500
+    PLAYER_SHOP_SLOT_MAX = 16
+
+    DEFAULT_ITEM_SLOT_MAX = 100 # CItemInfo::GetBundleItemInfoData
+    MONEY_MAX = 2147483647
+
+    SKIN_MAX = 11
+    FACE_MIN = 20000
+    FACE_MAX = 29999
+    HAIR_MIN = 30000
+    HAIR_MAX = 39999
+    STAT_MIN = 4
+    STAT_MAX = 32767
+    HP_MAX = 99999
+    MP_MAX = 99999
+    PAD_MAX = 29999
+    PDD_MAX = 30000
+    MAD_MAX = 29999
+    MDD_MAX = 30000
+    ACC_MAX = 9999
+    EVA_MAX = 9999
+    SPEED_MIN = 100
+    SPEED_MAX = 140
+    JUMP_MIN = 100
+    JUMP_MAX = 123
+    LEVEL_MIN = 1
+    LEVEL_MAX = 200
